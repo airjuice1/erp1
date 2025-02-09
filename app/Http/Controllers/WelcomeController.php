@@ -6,11 +6,11 @@ use Illuminate\Http\Request;
 
 class WelcomeController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
-        return view('welcome.index');
+        return view('welcome.index', [
+            'title' => 'Title',
+            'text' => 'Some text',
+        ]);
     }
 }
