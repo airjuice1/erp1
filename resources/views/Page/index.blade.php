@@ -1,5 +1,5 @@
 @include('common.header', ['title' => $title])
 
-<a href="/page">Page</a>
+<a href="/">home</a>
 
 @include('common.footer')

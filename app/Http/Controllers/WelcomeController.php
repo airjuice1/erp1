@@ -9,7 +9,7 @@ class WelcomeController extends Controller
     public function index()
     {
         return view('welcome.index', [
-            'title' => 'Title',
+            'title' => 'Home',
             'text' => 'Some text',
         ]);
     }
